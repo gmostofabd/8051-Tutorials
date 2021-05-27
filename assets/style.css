@@ -41,9 +41,9 @@ img {
   }
 
   #slide_cont{
-    width:760px; height:280px; 
-    margin-left: auto;
-    margin-right: auto;
+    width:760px; height:450px; 
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 20px;
     justify-content: center; 
     border-radius: 5px;
@@ -53,11 +53,10 @@ img {
   #link_cont{
     width:760px; height:720px; 
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 20px;
     text-align: center; 
-    border-radius: 10px;
     background-color:rgb(248, 239, 239);
   }
 
@@ -82,7 +81,7 @@ img {
       
       /* Slideshow container */
       .slideshow-container {
-        max-width: 400px;
+        max-width: 700px;
         position: relative;
         margin: auto;
       }
@@ -141,6 +140,6 @@ img {
       }
       
       /* On smaller screens, decrease text size */
-      @media only screen and (max-width: 300px) {
+      @media only screen and (max-width: 350px) {
         .text {font-size: 11px}
       }

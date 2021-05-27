@@ -1,7 +1,7 @@
 body{align-items: center;  font-family: Verdana, sans-serif; background-color: rgb(253, 253, 253);}
 
 h1{
-  font-size: 150%;
+  font-size: 200%;
   flex-wrap: 23px ;
   color: blueviolet;
   padding: 0;
@@ -41,8 +41,9 @@ img {
   }
 
   #slide_cont{
-    width:760px; height:450px; 
-    margin: auto;
+    width:760px; height:280px; 
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     justify-content: center; 
     border-radius: 5px;
@@ -81,7 +82,7 @@ img {
       
       /* Slideshow container */
       .slideshow-container {
-        max-width: 700px;
+        max-width: 400px;
         position: relative;
         margin: auto;
       }

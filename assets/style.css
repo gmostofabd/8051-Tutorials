@@ -74,7 +74,7 @@ img {
       
       /* Slideshow container */
       .slideshow-container {
-        max-width: 420px;
+        max-width: 350px;
         position: relative;
         margin-left: auto;
         margin-right: auto;
@@ -136,6 +136,6 @@ img {
       }
       
       /* On smaller screens, decrease text size */
-      @media only screen and (max-width: 350px) {
+      @media only screen and (max-width: 320px) {
         .text {font-size: 11px}
       }

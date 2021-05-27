@@ -9,7 +9,7 @@ h1{
 }
 
 h3{
-  font-size: 180%;
+  font-size: 150%;
   flex-wrap: 23px ;
   text-align: left;
   color: #8a094a;
@@ -22,26 +22,15 @@ img {
 
  
  #header_common{
-    width:800px; height:100px; 
+    width:500px; height:auto; 
     margin-left: auto ; margin-right: auto ;
     padding: 0px; 
     background-color:#eeeded;
   }
 
 
- #topic_container{
-    width:760px; height:auto; 
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-  padding: 20px;
-  text-align: center; 
-    border-radius: 15px;
-    border: 1px solid #ede8c2ff;
-  }
-
   #slide_cont{
-    width:760px; height:460px; 
+    width:460px; height:290px; 
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -52,11 +41,11 @@ img {
   }
 
   #link_cont{
-    width:720px; height:620px; 
-    margin-top: 50px;
+    width:420px; height:620px; 
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: auto;
     text-align: center; 
     border-radius: 10px;
     background-color:rgb(248, 239, 239);
@@ -64,8 +53,10 @@ img {
 
 
   .capt_cont{
-    width: 270px; height: 120px;
-    margin: 40px;
+    width: 270px; height: 90px;
+    margin-left: 75px;
+    
+    margin-top: 10px;
     padding: 5px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 10px;

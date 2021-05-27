@@ -42,8 +42,8 @@ img {
 
   #slide_cont{
     width:760px; height:460px; 
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     justify-content: center; 
     border-radius: 5px;
@@ -53,8 +53,8 @@ img {
   #link_cont{
     width:760px; height:720px; 
     margin-top: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     text-align: center; 
     background-color:rgb(248, 239, 239);
@@ -81,9 +81,12 @@ img {
       
       /* Slideshow container */
       .slideshow-container {
-        max-width: 720px;
+        max-width: 500px;
         position: relative;
+        margin-left: auto;
+        margin-right: auto;
         background-color: lawngreen;
+        
       }
       
       /* Caption text */

@@ -1,66 +1,164 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="shortcut icon" href="https://github.com/gmostofabd/melab-store/blob/main/Images/melab-bd_logo.jpg?raw=true" type="image/x-icon">
+body{align-items: center;  font-family: Verdana, sans-serif; background-color: rgb(253, 253, 253);}
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+h1{
+  font-size: 150%;
+  flex-wrap: 23px ;
+  color: blueviolet;
+  padding: 0;
+  margin: 0px;
+}
 
-    <title>8051 Tutorials</title>
-</head>
-<body><!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/style.css">
-        <title>8051 Assembly Programming Tutorials</title>
-    </head>
-    <body>
-    
-        <div id="header_common">
-            <img src="https://github.com/gmostofabd/melab-store/blob/main/Images/8051_Tutorial_Banner.png?raw=true" alt="common_header" width="350" height="80">
-        </div>
-        
-        <div id="topic_container">
-            <h2>8051 Tutorials</h2>
-        </div>
-    
-        
-        <table align = center width=350 height=500  bgcolor= white>
-          <tr>
-            <td valign=top>
-                <div class="capt_cont">
-                    <a href="https://gmostofabd.github.io/8051-Theories/"><h3>Theories</h3></a></li>
-                </div>
-    
-                <div class="capt_cont">
-                    <a href="https://gmostofabd.github.io/8051-Experiments/"><h3>Experiments</h3></a></li>
-                </div>
-                <div class="capt_cont">
-                    <a href="https://gmostofabd.github.io/8051-Projects/"><h3>Projects</h3></a></li>
-                </div>
-    
-                <div class="capt_cont">
-                    <a href="https://gmostofabd.github.io/8051-Downloads/"><h3>Downloads</h3></a></li>
-                </div>
-    
-                <div class="capt_cont">
-                   <a href="https://gmostofabd.github.io/8051-Videos/"><h3>Lesson Videos</h3></a></li>
-                </div>
-    
-                <div class="capt_cont">
-                   <a href="https://gmostofabd.github.io/8051-Lesson-PDF/"><h3>Lesson PDF</h3></a></li>
-                </div>    
-    
-            </td>
-            </tr>
-            </table>
-            
-    </body>
-    </html>
+h3{
+  font-size: 200%;
+  flex-wrap: 23px ;
+  text-align: left;
+  color: rgb(105, 13, 70);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+ 
+ #header_common{
+    width:800px; height:100px; 
+    margin-left: auto ; margin-right: auto ; 
+    background-color:#FFEEDD;
+  }
+
+
+ #topic_container{
+    width:960px; height:auto; 
+    margin: auto;
+  padding: 20px;
+  text-align: center; 
+    border-radius: 15px;
+    border: 1px solid #ede8c2ff;
+  background-color:#ddd9b5ff;
+  }
+
+  #slide_cont{
+    width:960px; height:370px; 
+    margin: auto;
+    padding: 20px;
+    text-align: center; 
+    border-radius: 5px;
+    background-color:rgb(240, 248, 250);
+  }
+
+  #link_cont{
+    width:960px; height:450px; 
+    margin: auto;
+    padding: 20px;
+    text-align: center; 
+    border-radius: 5px;
+    background-color:rgb(248, 239, 239);
+  }
+
+
+
+  .capt_cont{
+    width: 275px; height: 150px;
+    margin: 15px;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    color: rgb(112, 108, 108);
+    background-color: #ede8c2ff;
+    border-bottom: 2px solid rgb(196, 191, 149);
+  }
+
+
+  .box {
+        width: 40%;
+        height: auto;
+      }
+
+  .box_50 {
+        width: 50%;
+        height: auto;
+      }
+
+
+
+
+
+
+      * {box-sizing: border-box;}
+      .mySlides {display: none;}
+      
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 800px;
+        position: relative;
+        margin: auto;
+      }
+      
+      /* Caption text */
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+
+
+
+
+
+      .active {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 2.5s;
+      }
+      @-webkit-keyframes fade {
+        from {opacity: .2} 
+        to {opacity: 1}
+      }
+      
+      @keyframes fade {
+        from {opacity: .3} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+      }
+
 
 

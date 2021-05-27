@@ -9,7 +9,7 @@ h1{
 }
 
 h3{
-  font-size: 200%;
+  font-size: 180%;
   flex-wrap: 23px ;
   text-align: left;
   color: #8a094a;
@@ -44,6 +44,7 @@ img {
     width:760px; height:460px; 
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
     padding: 20px;
     justify-content: center; 
     border-radius: 5px;
@@ -51,18 +52,19 @@ img {
   }
 
   #link_cont{
-    width:760px; height:720px; 
-    margin-top: 20px;
+    width:720px; height:620px; 
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center; 
+    border-radius: 10px;
     background-color:rgb(248, 239, 239);
   }
 
 
   .capt_cont{
-    width: 275px; height: 150px;
+    width: 270px; height: 120px;
     margin: 40px;
     padding: 5px;
     border-top-left-radius: 20px;

@@ -29,7 +29,7 @@ img {
  
  #header_common{
     width:500px; height:70px; 
-    
+    margin-left: auto ; margin-right: auto ;
     padding: 0px; 
     background-color:#eeeded;
   }

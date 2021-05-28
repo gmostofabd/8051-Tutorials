@@ -1,16 +1,18 @@
+
+
 body{font-family: Verdana, sans-serif; background-color: rgb(253, 253, 253);}
 h1{ font-size: 200%; flex-wrap: 23px ; color: blueviolet; padding: 0; margin: 0px; }
 h3{font-size: 130%; flex-wrap: 23px ; text-align: left; color: #8a094a; }
 img {width: 100%; height: 100%;}
 
 #root_cont{
-    width: 500px; height: 950px;
+    width: 500px; height: 920px;
     background-color: lightgoldenrodyellow;
     margin: auto;
   } 
 
 #header_common{
-    width:490px; height:70px; 
+    width:490px; height:65px; 
     margin-left: auto ; margin-right: auto ;
     padding: 0px; 
     background-color:#eeeded;
@@ -28,21 +30,20 @@ img {width: 100%; height: 100%;}
   }
 
 #link_cont{
-    width:490px; height:520px; 
+    width:490px; height:500px; 
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     padding: auto;
     text-align: center; 
     border-radius: 10px;
-    background-color:rgb(248, 239, 239);
+    background-color:rgb(253, 253, 253);
   }
 
 .capt_cont{
-    width: 350px; height: 70px;
-    margin-left: 75px;
+    width: 300px; height: 70px;
+    margin-left: 100px;
     margin-top: 10px;
-    padding: 5px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 10px;
     display: flex;
@@ -59,7 +60,7 @@ img {width: 100%; height: 100%;}
       
       /* Slideshow container */
   .slideshow-container {
-        max-width: 350px;
+        max-width: 480px;
         position: relative;
         margin-left: auto;
         margin-right: auto;
@@ -110,4 +111,4 @@ img {width: 100%; height: 100%;}
       @-webkit-keyframes fade {from {opacity: .2} to {opacity: 1} }
       @keyframes fade {from {opacity: .3} to {opacity: 1} }
       /* On smaller screens, decrease text size */
-      @media only screen and (max-width: 320px) {.text {font-size: 11px} }
+      @media only screen and (max-width: 350px) {.text {font-size: 11px} }

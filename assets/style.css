@@ -1,7 +1,7 @@
 body{font-family: Verdana, sans-serif; background-color: rgb(253, 253, 253);}
 h1{ font-size: 200%; flex-wrap: 23px ; color: blueviolet; padding: 0; margin: 0px; }
 h3{font-size: 130%; flex-wrap: 23px ; text-align: left; color: #8a094a; }
-img {width: 90%; height: 90%;}
+img {width: 100%; height: 100%;}
 
 #root_cont{
     width: 500px; height: 950px;
@@ -59,7 +59,7 @@ img {width: 90%; height: 90%;}
       
       /* Slideshow container */
   .slideshow-container {
-        max-width: 480px;
+        max-width: 350px;
         position: relative;
         margin-left: auto;
         margin-right: auto;
@@ -110,4 +110,4 @@ img {width: 90%; height: 90%;}
       @-webkit-keyframes fade {from {opacity: .2} to {opacity: 1} }
       @keyframes fade {from {opacity: .3} to {opacity: 1} }
       /* On smaller screens, decrease text size */
-      @media only screen and (max-width: 450px) {.text {font-size: 11px} }
+      @media only screen and (max-width: 320px) {.text {font-size: 11px} }

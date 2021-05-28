@@ -1,7 +1,7 @@
 body{font-family: Verdana, sans-serif; background-color: rgb(253, 253, 253);}
 h1{ font-size: 200%; flex-wrap: 23px ; color: blueviolet; padding: 0; margin: 0px; }
 h3{font-size: 130%; flex-wrap: 23px ; text-align: left; color: #8a094a; }
-img {width: 100%; height: 100%;}
+img {width: 90%; height: 90%;}
 
 #root_cont{
     width: 500px; height: 950px;

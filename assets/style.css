@@ -20,6 +20,12 @@ img {
     height: 100%;
 }
 
+#root_cont{
+  width: 600px; height: 1500px;
+  background-color: lightgoldenrodyellow;
+  margin: auto;
+} 
+
  
  #header_common{
     width:500px; height:70px; 

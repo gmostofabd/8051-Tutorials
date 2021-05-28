@@ -1,4 +1,4 @@
-body{align-items: center;  font-family: Verdana, sans-serif; background-color: rgb(253, 253, 253);}
+body{font-family: Verdana, sans-serif; background-color: rgb(253, 253, 253);}
 
 h1{
   font-size: 200%;
@@ -21,14 +21,15 @@ img {
 }
 
 #root_cont{
-  width: 500px; height: 1500px;
+  width: 600px; height: 1100px;
   background-color: lightgoldenrodyellow;
   margin: auto;
 } 
 
- 
+
+
  #header_common{
-    width:500px; height:70px; 
+    width:480px; height:70px; 
     margin-left: auto ; margin-right: auto ;
     padding: 0px; 
     background-color:#eeeded;
@@ -36,7 +37,7 @@ img {
 
 
   #slide_cont{
-    width:460px; height:290px; 
+    width:480px; height:290px; 
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -47,7 +48,7 @@ img {
   }
 
   #link_cont{
-    width:420px; height:620px; 
+    width:480px; height:620px; 
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -80,7 +81,7 @@ img {
       
       /* Slideshow container */
       .slideshow-container {
-        max-width: 350px;
+        max-width: 720px;
         position: relative;
         margin-left: auto;
         margin-right: auto;
@@ -142,6 +143,6 @@ img {
       }
       
       /* On smaller screens, decrease text size */
-      @media only screen and (max-width: 320px) {
+      @media only screen and (max-width: 350px) {
         .text {font-size: 11px}
       }

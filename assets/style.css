@@ -1,8 +1,7 @@
 
 
 body{font-family: Verdana, sans-serif; background-color: rgb(253, 253, 253);}
-h1{ font-size: 200%; flex-wrap: 23px ; color: blueviolet; padding: 0; margin: 0px; }
-h3{font-size: 130%; flex-wrap: 23px ; text-align: left; color: #8a094a; }
+h3{font-size: 130%; flex-wrap: 23px ; text-align: left; padding: 0;  color: #8a094a; }
 img {width: 100%; height: 100%;}
 
 #root_cont{
@@ -64,7 +63,7 @@ img {width: 100%; height: 100%;}
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        background-color: rgb(121, 148, 93);
+        background-color: rgb(223, 247, 197);
     }
       
       /* Caption text */
@@ -98,7 +97,7 @@ img {width: 100%; height: 100%;}
     }
 
 
-  .active {background-color: #717171;}
+  .active {background-color: #ee3131;}
       
       /* Fading animation */
       .fade {

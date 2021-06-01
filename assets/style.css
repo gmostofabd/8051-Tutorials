@@ -5,51 +5,62 @@ h3{font-size: 200%; flex-wrap: 23px ; text-align: left; padding: 0;  color: #8a0
 img {width: 100%; height: 100%;}
 
 #root_cont{
-    width: 1000px; height: 1600px;
+    width: 1000px; height: 1800px;
     background-color: lightgoldenrodyellow;
     margin: auto;
   } 
 
-  #header_common{
+#header_common{
     width:1000px; height:130px; 
     margin-left: auto ; margin-right: auto ; 
     background-color:#FFEEDD;
   }
 
 #slide_cont{
-    width:900px; height:600px; 
+    width:95%; height:600px; 
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     padding: 20px;
     justify-content: center; 
-    border-radius: 5px;
-    background-color:rgb(240, 248, 250);
+    border-radius: 15px;
+    background-color:rgb(231, 231, 231);
   }
 
 #link_cont{
-    width:950px; height:700px; 
+    width:95%; height:900px; 
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     padding: auto;
     text-align: center; 
     border-radius: 10px;
-    background-color:rgb(253, 253, 253);
+    background-color:rgb(240, 248, 250);
   }
 
 .capt_cont{
-    width: 95%; height: 100px;
+    width: 65%; height: 100px;
     margin-top: 10px;
     margin-left: 25px;
-        border-top-left-radius: 20px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 20px;
     display: flex;
     float: left;
     justify-content: center;
     color: rgb(112, 108, 108);
-    background-color: #ede8c2ff;
     border-bottom: 2px solid rgb(196, 191, 149);
+  }
+
+.capt_cont2{
+    width: 30%; height: 100px;
+    margin-top: 10px;
+    padding-top: 40px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 50px;
+    float: left;
+    justify-content: center;
+    color: rgb(112, 108, 108);
+    border-top: 2px solid rgb(196, 191, 149);
   }
 
 
